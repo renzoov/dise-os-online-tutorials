@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Hover Effects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container"></div>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script> -->
+  <script>
+    // for (let i = 1; i <= 3500; i++) {
+    //   $(".container").append("<div class='box'></div>")
+    // }
+    for (let i = 1; i <= 3500; i++) {
+      document.querySelector(".container").insertAdjacentHTML("beforeend", "<div class='box'></div>");
+    }
+  </script>
+</body>
+
+</html>
